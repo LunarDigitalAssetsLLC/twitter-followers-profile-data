@@ -4,7 +4,7 @@ import urllib2
 from scraperwiki import swimport
 
 myfollowers = []
-twitter_handle = 'datahh'
+twitter_handle = 'hanyoon'
 
 base_url = 'https://api.twitter.com/1/followers/ids.json?cursor=-1&screen_name=' + twitter_handle 
 results_json = simplejson.loads(scraperwiki.scrape(base_url))
